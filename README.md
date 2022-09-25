@@ -24,14 +24,15 @@
 2) Фронтенд - приложение Unity WebGL.
 
 ## Демонстрация игры
-# Окно авторизации
+
+Окно авторизации
 ![alt text](https://github.com/progML/wowBattleSource/blob/master/result/game_1.jpg)
 
-# Главное меню
+Главное меню
 ![alt text](https://github.com/progML/wowBattleSource/blob/master/result/game_2.jpg)
 
-# Игровой процесс
+Игровой процесс
 ![alt text](https://github.com/progML/wowBattleSource/blob/master/result/game_3.jpg)
 
-# Завершение битвы
+Завершение битвы
 ![alt text](https://github.com/progML/wowBattleSource/blob/master/result/game_4.jpg)
