@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52e45c173e4e4ebd978b0d6c703dbe64, type: 3}
+  m_Name: GameFieldPrefabsConfig
+  m_EditorClassIdentifier: 
+  wallViewPrefabs:
+  - {fileID: 6140925003216398763, guid: b95c54ebfb4c8a14c8f673b21a377f4c, type: 3}
+  - {fileID: 6140925003216398763, guid: 39a0db01921b608468ad458d14f3eedd, type: 3}
+  - {fileID: 6140925003216398763, guid: 0f59451f47908dc49841ffe87f666ab9, type: 3}
+  - {fileID: 6140925003216398763, guid: fbbdb5b50be6cbf44a7274a44d2c0334, type: 3}
+  AttackerCornerViewPrefabs:
+  - {fileID: 7691233381691978278, guid: e1a8189d810c8a9479611d817c700958, type: 3}
+  - {fileID: 7691233381691978278, guid: e65c9aef78331674dad9902fa8cedae5, type: 3}
+  - {fileID: 7691233381691978278, guid: 623889eee2432f84ea23922b81fcd5a9, type: 3}
+  GroundMaterials:
+  - {fileID: 2100000, guid: 8ddb7669be2264b4dacc1af3768b5064, type: 2}
+  - {fileID: 2100000, guid: 92adbfb1e43450642ab97c7714f1bc81, type: 2}
+  - {fileID: 2100000, guid: 1b82fdb2e69b48d479b5ecf9b393dc4d, type: 2}

@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &779895947358712219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8691555530112792706}
+  - component: {fileID: 8232643204170143578}
+  - component: {fileID: 167155292956716877}
+  - component: {fileID: 5016506143084751341}
+  - component: {fileID: 7532175974688279711}
+  m_Layer: 0
+  m_Name: '[Network]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8691555530112792706
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779895947358712219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8232643204170143578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779895947358712219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52f407122aa4999a97822782c713273, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modifiedPlayerBase: 0
+  staticGameParams:
+    maxHp: 5
+    baseLen: 10
+    maxShields: 5
+    maxTurns: 5
+  playerData:
+    id: 0
+    login: Attacker
+    baseMask: 0
+    icon: {fileID: 21300000, guid: 4156a0fcb5a3a49cb9e3639da32288d6, type: 3}
+    currentHealth: 5
+    attackCount: 5
+  enemyData:
+    id: 0
+    login: Defender
+    baseMask: 0
+    icon: {fileID: 21300000, guid: 50062194356d4448090cfd4d074c437e, type: 3}
+    currentHealth: 5
+    attackCount: 0
+  serveGameState: 0
+--- !u!114 &167155292956716877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779895947358712219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e37d14666fb7cd2499343675e2be6223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  networkConfiguration: {fileID: 11400000, guid: 00ca27a8b25b8da45a7d0987249b2380, type: 2}
+  messageChannel: {fileID: 11400000, guid: 8503ec54016400d4db3649908c9642d5, type: 2}
+  userKey: 
+--- !u!114 &5016506143084751341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779895947358712219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 912ada7231ec45709755e276b6e89692, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  networkConfiguration: {fileID: 11400000, guid: 00ca27a8b25b8da45a7d0987249b2380, type: 2}
+--- !u!114 &7532175974688279711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779895947358712219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ccdaa03740e4bb49aa1ca637c7e8749, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
